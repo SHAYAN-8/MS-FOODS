@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffd400;
+  border-radius: 30px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
